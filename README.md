@@ -1,16 +1,16 @@
-# Repositório-Curso-Entra21---PHP
-Repositório do Curso de PHP da Entra-21
+### Repositório-Curso-Entra21---PHP
+## Repositório do Curso de PHP da Entra-21
 
 Início dos commits em 26/04/2022.
 
 
 
-Resumo do dia 27 de abril
+# Resumo do dia 27 de abril
 
 
 Daily Scrum
 
-- O que eu fiz ontem?
+- O que eu fiz ontem? :heavy_check_mark:
 - O que eu vou fazer hoje?
 - O que me impede de seguir?
 
@@ -37,16 +37,16 @@ Atividade: Clonar o repositório do colega e efetuar alterações na mesma linha
 
 
 
-Resumo do dia 28 de abril
+# Resumo do dia 28 de abril
 
 
 Daily Scrum
 
-- O que eu fiz ontem?
+- O que eu fiz ontem? :heavy_check_mark:
 - O que eu vou fazer hoje?
 - O que me impede de seguir?
 
-Revisão da Atividade de clonar o repositório do colega,criar e solucionar o conflito.
+Revisão da Atividade de clonar o repositório do colega, criar e solucionar o conflito. :heavy_check_mark:
 
 Introdução à lógica de programação.
 
