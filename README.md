@@ -57,8 +57,8 @@ Comandos do Promp
 <p>Revisão da Atividade de clonar o repositório do colega, criar e solucionar o conflito. :heavy_check_mark:</p>
 
 1. Introdução à lógica de programação.
-    1.1 O que são algoritmos;
-    1.2 Sequência lógica;
+    - O que são algoritmos;
+    - Sequência lógica;
 
 <p>Atividade: Listar em dez passos a atividade escolhida: comer pizza.</p>
 
@@ -88,11 +88,11 @@ Comandos do Promp
 <p>Revisão do Kanban :heavy_check_mark:</p>
 <p>Revisão do Scrum = Sprint Review e Sprint Retrospective:heavy_check_mark:</p>
 
-1. Introdução à lógica de programação. 
-    1.3 Representação de uma algoritmo (Descritivo, Fluxograma e Pseudocódigo)
-        1.3.1 Introdução a Diagramas
-        1.3.2 Diagrama de Chapin
-    1.4 Fases de um algoritmo
-        1.4.1 Introdução ao Levantamento de Requisitos
+1. Introdução à lógica de programação.
+    - Representação de uma algoritmo (Descritivo, Fluxograma e Pseudocódigo)
+        - Introdução a Diagramas
+          - Diagrama de Chapin
+    - Fases de um algoritmo
+       - Introdução ao Levantamento de Requisitos
 
 <p>Relatório diário no Readme, commitar no git e push no github.</p>
