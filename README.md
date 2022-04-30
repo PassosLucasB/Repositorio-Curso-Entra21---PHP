@@ -1,14 +1,13 @@
 # Repositório-Curso-Entra21---PHP
 ## Este é o Repositório Pessoal do Curso de PHP da Entra-21 PHP
 
-Início dos commits em 26/04/2022.
+<p>Início dos commits em 26/04/2022.</p>
 
-Possui o resumo diário das aulas, atividades, orientações gerais e links.
+<p>Possui o resumo diário das aulas, atividades, orientações gerais e links.</p>
 
 ### Resumo do dia 27 de abril
 
-
-Daily Scrum
+#### Daily Scrum
 
 1. O que eu fiz ontem? :heavy_check_mark:
 2. O que eu vou fazer hoje?
@@ -16,33 +15,31 @@ Daily Scrum
 
 Comandos do Promp
 
-Foi passado aos alunos os comandos básicos do promp:
+<p>Foi passado aos alunos os comandos básicos do promp:</p>
 
 
 
-- git add .;
-- git commit -m "";
-- git push;
+<p>git add .</p>
+<p>git commit -m ""</p>
+<p>git push</p>
 
-- git status;
-- mkdir diretorioName = cria um novo diretorio;
-- rmdir diretorioName = remove o diretorio;
-- cp diretorioName = copia arquivos e diretorios;
-- mv diretorioName = move arquivos e diretorios, pode ser utilizado para
-renomear tambem;
-- rm-r diretorioName = remove arquivo;
-- clear = limpa todo o conteudo do pront;
-- cls = limpa todo o conteudo do pront;
-- pwd = mostra o local que voce esta;
-- ls = listar - o que tem na pasta;
-- cd diretorioName = vai para o direitorio;
-- cd .. = volta para a pasta anterior - raiz;
-- cat diretorioName - mostra o conteudo do arquivo;
+<p>git status</p>
+<p>mkdir diretorioName = cria um novo diretorio</p>
+<p>rmdir diretorioName = remove o diretorio</p>
+<p>cp diretorioName = copia arquivos e diretorios, renomear também</p>
+<p>rm-r diretorioName = remove arquivo</p>
+<p>clear = limpa todo o conteudo do pront</p>
+<p>cls = limpa todo o conteudo do pront</p>
+<p>pwd = mostra o local que voce esta</p>
+<p>ls = listar - o que tem na pasta</p>
+<p>cd diretorioName = vai para o direitorio</p>
+<p>cd .. = volta para a pasta anterior - raiz</p>
+<p>cat diretorioName - mostra o conteudo do arquivo</p>
 
-- Atividade: Clonar o repositório do colega e efetuar alterações na mesma linha de código para criar um conflito. Solucionar o conflito.
+<p>Atividade: Clonar o repositório do colega e efetuar alterações na mesma linha de código para criar um conflito. Solucionar o conflito.</p>
 
 
-- Relatório diário no Readme, commitar no git e push no github.
+<p>Relatório diário no Readme, commitar no git e push no github.</p>
 
 
 
@@ -50,18 +47,20 @@ renomear tambem;
 ### Resumo do dia 28 de abril
 
 
-Daily Scrum
+#### Daily Scrum
 
 1. O que eu fiz ontem? :heavy_check_mark:
 2. O que eu vou fazer hoje?
 3. O que me impede de seguir?
 
 
-- Revisão da Atividade de clonar o repositório do colega, criar e solucionar o conflito. :heavy_check_mark:
+<p>Revisão da Atividade de clonar o repositório do colega, criar e solucionar o conflito. :heavy_check_mark:</p>
 
-- Introdução à lógica de programação.
+1. Introdução à lógica de programação.
+  1.1. O que são algoritmos;
+  1.2. Sequência lógica;
 
-- Atividade: Listar em dez passos a atividade escolhida: comer pizza.
+<p>Atividade: Listar em dez passos a atividade escolhida: comer pizza.</p>
 
 1. Encomendar a pizza;
 2. Receber a pizza;
@@ -74,12 +73,12 @@ Daily Scrum
 9. Engolir o pedaço da pizza;
 10. Repetir os passos 5 até o 9 enquanto houver pedaços de pizza.
 
-- Relatório diário no Readme, commitar no git e push no github.
+<p>Relatório diário no Readme, commitar no git e push no github.</p>
 
 ### Resumo do dia 29 de abril
 
 
-Daily Scrum
+#### Daily Scrum
 
 1. O que eu fiz ontem? :heavy_check_mark:
 2. O que eu vou fazer hoje?
@@ -87,11 +86,13 @@ Daily Scrum
 
 
 - Revisão do Kanban :heavy_check_mark:
-- Revisão do Scrum :heavy_check_mark:
+- Revisão do Scrum = Sprint Review e Sprint Retrospective:heavy_check_mark:
 
-- Teste de mesa;
-- Introdução a Diagramas;
-- Diagrama de Chapin;
-- Introdção ao Levantamento de Requisitos;
+1. Introdução à lógica de programação.
+  1.3. Representação de uma algoritmo (Descritivo, Fluxograma e Pseudocódigo)
+    1.3.1. Introdução a Diagramas
+        1.3.2. Diagrama de Chapin
+   1.4 Fases de um algoritmo
+        1.4.1.Introdução ao Levantamento de Requisitos
 
-- Relatório diário no Readme, commitar no git e push no github.
+<p>Relatório diário no Readme, commitar no git e push no github.</p>
