@@ -88,11 +88,11 @@ Comandos do Promp
 - Revisão do Kanban :heavy_check_mark:
 - Revisão do Scrum = Sprint Review e Sprint Retrospective:heavy_check_mark:
 
-1. Introdução à lógica de programação.
-  1.3 Representação de uma algoritmo (Descritivo, Fluxograma e Pseudocódigo)
-    1.3.1 Introdução a Diagramas
-        1.3.2 Diagrama de Chapin
+1. Introdução à lógica de programação. 
+   1.3 Representação de uma algoritmo (Descritivo, Fluxograma e Pseudocódigo)
+       1.3.1 Introdução a Diagramas
+       1.3.2 Diagrama de Chapin
    1.4 Fases de um algoritmo
-        1.4.1 Introdução ao Levantamento de Requisitos
+       1.4.1 Introdução ao Levantamento de Requisitos
 
 <p>Relatório diário no Readme, commitar no git e push no github.</p>
