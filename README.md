@@ -96,3 +96,30 @@ Comandos do Promp
        - Introdução ao Levantamento de Requisitos
 
 <p>Relatório diário no Readme, commitar no git e push no github.</p>
+
+### Resumo do dia 02 de maio
+
+
+#### Daily Scrum
+
+1. O que eu fiz ontem? :heavy_check_mark:
+2. O que eu vou fazer hoje?
+3. O que me impede de seguir?
+
+
+<p>Revisão Lógica de Programação :heavy_check_mark:</p>
+   - Algoritmo
+   - Caminho do Algoritmo
+
+
+##### Introdução ao ambiente de Desenvolvimento
+
+1. Introdução ao Portugol
+
+    - Início
+    - Dados (Banco de Dados)
+    - Processamento (Back End)
+    - Impressão (Front End)
+    - Fim
+
+<p>Relatório diário no Readme, commitar no git e push no github.</p>
