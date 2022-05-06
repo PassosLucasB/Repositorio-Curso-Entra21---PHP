@@ -147,3 +147,24 @@ Comandos do Promp
 <p>Introdução aos Grupos</p>
 
 <p>Relatório diário no Readme, commitar no git e push no github.</p>
+
+
+### Resumo do dia 05 de maio
+
+
+#### Daily Scrum
+
+1. O que eu fiz ontem? :heavy_check_mark:
+2. O que eu vou fazer hoje?
+3. O que me impede de seguir?
+
+##### Ambiente de Desenvolvimento
+
+1. Introdução ao Portugol
+
+    - Entradas e Saídas
+    - Tipos de variáveis
+    - Operações Aritméticas
+
+
+<p>Relatório diário no Readme, commitar no git e push no github.</p>
