@@ -168,3 +168,32 @@ Comandos do Promp
 
 
 <p>Relatório diário no Readme, commitar no git e push no github.</p>
+
+
+### Resumo do dia 06 de maio
+
+
+#### Daily Scrum
+
+1. O que eu fiz ontem? :heavy_check_mark:
+2. O que eu vou fazer hoje?
+3. O que me impede de seguir?
+
+<p>Revisão Git/GitHub :heavy_check_mark:</p>
+   - Readme.
+
+<p>Revisão Lógica de Programação :heavy_check_mark:</p>
+   - Portugol: algoritmos e lógica.
+
+##### Lógica de Programação
+
+1. Aula e Exercícios em Portugol
+
+    - Desvios Condicionais
+      - IF
+      - ELSE
+      - CASE
+   
+
+
+<p>Relatório diário no Readme, commitar no git e push no github.</p>
