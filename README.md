@@ -408,3 +408,20 @@ Comandos do Promp
    
 
 <p>Relatório diário no Readme, commitar no git e push no github.</p>
+
+
+### Resumo do dia 23 de maio
+
+
+<p>Revisão da lógica em PHP :heavy_check_mark:</p>
+
+##### Lógica de Programação
+
+1. Aula e Exercícios de Lógica em PHP
+
+    - Operadores Aritméticos em PHP
+    - Operadores Booleanos em PHP
+    - Atividades práticas em php.
+   
+
+<p>Relatório diário no Readme, commitar no git e push no github.</p>

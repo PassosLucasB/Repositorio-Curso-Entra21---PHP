@@ -1,5 +1,3 @@
-Crie um arquivo para cada versão do exercicio: ex.: ephp_???.php
-
 Crie tres variaveis em tipos diferentes.
 Crie um comentario de no maximo uma linha
 Crie um comentario de mais de uma linha
