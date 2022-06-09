@@ -426,5 +426,111 @@ Comandos do Promp
 
 <p>Relatório diário no Readme, commitar no git e push no github.</p>
 
+### Resumo do dia 25 de maio
 
-git config user.name "Lucas Bernardelli de Passos" 
+
+<p>Revisão dos exercícios em PHP :heavy_check_mark:</p>
+
+##### Lógica de Programação
+
+1. Aula e Exercícios de Lógica em PHP
+   
+
+<p>Relatório diário no Readme, commitar no git e push no github.</p>
+
+### Resumo do dia 26 de maio
+
+
+<p>Revisão dos exercícios em PHP :heavy_check_mark:</p>
+
+##### Lógica de Programação
+
+1. Aula e Exercícios de Lógica em PHP
+   
+
+<p>Relatório diário no Readme, commitar no git e push no github.</p>
+
+### Resumo do dia 27 de maio
+
+
+<p>Revisão dos exercícios em PHP :heavy_check_mark:</p>
+
+##### Lógica de Programação
+
+1. Aula e Exercícios de Lógica em PHP
+   
+
+<p>Relatório diário no Readme, commitar no git e push no github.</p>
+
+### Resumo do dia 30 de maio
+
+
+<p>Revisão dos exercícios em PHP :heavy_check_mark:</p>
+
+##### Lógica de Programação
+
+1. Aula e Exercícios de Lógica em PHP
+   
+
+<p>Relatório diário no Readme, commitar no git e push no github.</p>
+
+### Resumo do dia 01 de junho
+
+
+<p>Revisão dos exercícios em PHP :heavy_check_mark:</p>
+
+##### Lógica de Programação
+
+1. Aula e Exercícios de Lógica em PHP
+   
+
+<p>Relatório diário no Readme, commitar no git e push no github.</p>
+
+### Resumo do dia 02 de junho
+
+
+<p>Revisão dos exercícios em PHP :heavy_check_mark:</p>
+
+##### Lógica de Programação
+
+1. Aula e Exercícios de Lógica em PHP
+   
+
+<p>Relatório diário no Readme, commitar no git e push no github.</p>
+
+### Resumo do dia 03 de junho
+
+
+<p>Revisão dos exercícios em PHP :heavy_check_mark:</p>
+
+##### Lógica de Programação
+
+1. Aula e Exercícios de Lógica em PHP
+   
+
+<p>Relatório diário no Readme, commitar no git e push no github.</p>
+
+### Resumo do dia 06 de junho
+
+
+<p>Revisão dos exercícios em PHP :heavy_check_mark:</p>
+
+##### Lógica de Programação
+
+1. Aula e Exercícios de Lógica em PHP
+   
+
+<p>Relatório diário no Readme, commitar no git e push no github.</p>
+
+### Resumo do dia 08 de junho
+
+
+<p>Revisão dos exercícios em PHP :heavy_check_mark:</p>
+
+##### Lógica de Programação
+
+1. Aula e Exercícios de Lógica em PHP
+   
+
+<p>Relatório diário no Readme, commitar no git e push no github.</p>
+
