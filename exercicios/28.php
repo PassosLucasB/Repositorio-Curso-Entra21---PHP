@@ -18,14 +18,9 @@
             ),  
         );
         foreach ($dados as $x){
-             echo "<br> Chave: $key";
-             foreach ($x as $subkey ){
-                 echo "<br>";
-                 var_dump($subkey);
-                    echo $subkey['nome'];
-                    echo $subkey['idade'];
-                    echo $subkey['CEP'];
+                    echo $x['nome']."<br>";
+                    echo $x['idade']."<br>";
+                    echo $x['CEP']."<br>";
              }
-        }
 
 ?>
