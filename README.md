@@ -425,3 +425,6 @@ Comandos do Promp
    
 
 <p>Relatório diário no Readme, commitar no git e push no github.</p>
+
+
+git config user.name "Lucas Bernardelli de Passos" 
