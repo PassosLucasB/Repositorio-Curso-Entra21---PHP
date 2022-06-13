@@ -1,3 +1,35 @@
+<!DOCTYPE html>
+<body>
+
+<p>Formulário de Cadastro de Pessoas</p>
+</br>
+    <form method="post">
+        <span>Nome</span>
+        <input type="text" name="nome" idade="idade" CEP="cep">
+        <br>
+        <span>Idade</span>
+        <input type="text" name="nome" idade="idade" CEP="cep">
+        <br>
+        <span>CEP</span>
+        <input type="text" name="nome" idade="idade" CEP="cep">
+        <br>
+        <input type="submit" name="Enviar" value="Enviar">
+    </form>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
 <?php
 
     $dados = array(
@@ -24,3 +56,4 @@
              }
 
 ?>
+</html>
