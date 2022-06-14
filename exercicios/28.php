@@ -5,7 +5,11 @@ require '28b.php';
 ?>
 
 <html>
+<head>
 
+
+
+</head>
 
 
 
@@ -34,12 +38,12 @@ require '28b.php';
         array_push($_SESSION['dados'],array("nome" => $_POST['nome'],"idade" => $_POST['idade'],"cep" => $_POST['cep'] ));
     };
     foreach($_SESSION['dados'] as $id =>$x){
-        echo "Nome:".$x['nome']."<a href=excluir.php?Delete=".$id."&Nome=".$x['nome'].">Excluir </a>" .$b;}
+        echo "Nome:".$x['nome']." <a href=excluir.php?Delete=".$id."&Nome=".$x['nome'].">Excluir </a>" .$b;}
 
 ?>
 
 <form method="post">
-    <input type="submit" name="restaura" value= "restaura>
+    <input type="submit" name="restaura" value= "restaura">
 </form>
 
 </body>
