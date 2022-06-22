@@ -34,11 +34,28 @@ require '28b.php';
     if(isset($_POST['restaura'])){
         $_SESSION['dados'] = $dados;
     };
-    if(isset($_POST['adiciona_dados'])){
-        array_push($_SESSION['dados'],array("nome" => $_POST['nome'],"idade" => $_POST['idade'],"cep" => $_POST['cep'] ));
+    if(isset($_POST['adicionar_dados'])){
+        $nome=$_POST['nome'];
+        $idade=$_POST['idade'];
+        $cep=$_POST['cep'];
+        
+        $adiciona_dados= array(
+            "nome" => $nome,
+            "idade" => $idade,
+            "cep" => $cep
+        );
+        array_push($_SESSION['cadastro'], $adiciona_dados);
+
+        foreach($_SESSION['cadastro'] as $pessoa){
+            echo "Nome: ".$pessoa['nome']. "<br/> Idade: ".$pessoa['idade']."<br/> CEP: ".$pessoa['cep']."<br/><br/>";
+        }
+        
+
+
+        //array_push($_SESSION['dados'],array("nome" => $_POST['nome'],"idade" => $_POST['idade'],"cep" => $_POST['cep'] ));
     };
     foreach($_SESSION['dados'] as $id =>$x){
-        echo "Nome:".$x['nome']." <a href=excluir.php?Delete=".$id."&Nome=".$x['nome'].">Excluir </a>" .$b;}
+        echo "Nome:".$x['nome']." <a href=28d.php?Delete=".$id."&Nome=".$x['nome'].">Excluir </a>" .$b;}
 
 ?>
 

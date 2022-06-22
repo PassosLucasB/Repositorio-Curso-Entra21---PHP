@@ -6,6 +6,6 @@ if ($_GET['Delete']) {
     array_splice($_SESSION['dados'], $_GET['Delete'], 1);
     echo "a chave : " . $_GET['Delete'] . " Nome: " . $_GET['Nome'] . " foi excluida" . $b;
     echo $b . "Retornando em 3 segundos ...";
-    header("refresh: 3;index.php");
+    header("refresh: 3;28.php");
 }
 ?>
