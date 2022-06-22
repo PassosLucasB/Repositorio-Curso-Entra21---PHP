@@ -1,13 +1,14 @@
 <?php
-include ".php";
+include "config.php";
 ?>
 
 <!DOCTYPE html>
-<html lang="pt">
+
 <head>
     <meta name="Lucas Benardelli dos Passos" content="">
     <meta name="Formulário em PHP" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
     <title>Formulário de Dados</title>
 </head>
 <body>
