@@ -39,7 +39,7 @@
 - Possibilite alterar um valor em seu banco de dados (array).
 
 
-6. Página altera.php:
+6. Página script.php:
 
 - Utilize arquivo separado (modularizado) para tratar as alterações.
 - Inclua um botão excluir um item da sua array.
