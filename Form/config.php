@@ -12,7 +12,6 @@ $cep = $_POST['cep'];
 
 header(string: 'localtion: index.php');
 
-?>
 
 /*
 
@@ -24,3 +23,10 @@ header(string: 'localtion: index.php');
 
 
 */
+
+
+
+
+
+?>
+

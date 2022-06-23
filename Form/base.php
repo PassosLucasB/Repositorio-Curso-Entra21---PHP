@@ -1,3 +1,4 @@
+<?php
 /*
 - Faça um arquivo separado chamado - base.php para incluir a array.
 - Inclua ele em seus scripts com require_once.
@@ -7,3 +8,4 @@
 
 
 */
+?>

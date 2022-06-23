@@ -1,3 +1,6 @@
+<?php
+
+
 /*
 - Utilize arquivo separado (modularizado) para tratar as alterações.
 - Inclua um botão excluir um item da sua array.
@@ -12,3 +15,4 @@ Imprima a média de idade do seu cadastro no rodapé da página.
 
 
 */
+?>
