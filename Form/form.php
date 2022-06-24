@@ -21,9 +21,9 @@
 
             <form action="script.php" method="post">
     
-                <p>Insira o Nome: <input class="field" type="text" name="nome" /></p>
-                <p>Insira a Idade: <input class="field" type="text" name="idade" /></p>
-                <p>Insira o CEP: <input class="field" type="text" name="cep" /></p>
+                <input class="field" type="text" name="nome" /></p>
+                <p>Insira a idade: <input type="text" name="idade" /></p>
+                <p>Insira o CEP: <input type="text" name="cep" /></p>
                 <p><input type="submit" value="Enviar dados"/></p>
             </form>
 
