@@ -1,5 +1,8 @@
 <?php
 
+$nome = addslashes($_POST['name']);
+$idade = addslashes($_POST['idade']);
+$cep = addslashes($_POST['cep'])
 
 /*
 - Utilize arquivo separado (modularizado) para tratar as alterações.
