@@ -1,6 +1,6 @@
 <?php
 
-$b='<br>';
+$b="</br>";
 $dados = array(
     "1" => array(
         "nome" => "Almir",

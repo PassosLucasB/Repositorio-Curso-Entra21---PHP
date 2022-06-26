@@ -23,13 +23,13 @@ body {
 .content{
     font-family:Arial;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     font-size: 30px;
-    margin-left: 45px;
 
 }
 .contato{
-    width: 100%;   
+    margin-left: 70px;
+      
 }
 .form{
     display: flex;
@@ -37,6 +37,7 @@ body {
 }
 .field{
     padding: 10px;
+    margin-left: 5px;
     margin-bottom: 15px;
     border: 1px solid #DDD;
     border-radius: 5px;
@@ -55,21 +56,17 @@ body {
     justify-content: right;
 }
 .quadro{
+
     display: flex;
     flex-direction: column;
-    align-content: right;
-    margin-right: 25px;
+    align-content: space-between;
+
 
 }
 .item-quadro{
-    flex-direction: column;
 
-}
-.dados{
-    display: flex;
-    justify-items: center;
-    flex-direction: column;
-    justify-content: center;
+    margin-right: 15px;
+
 }
 /*
 

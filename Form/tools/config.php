@@ -1,8 +1,17 @@
+
 <?php
+
+session_start();
+
+if (!isset($_SESSION["required"])){
+    $_SESSION['required'] = true;
+    require_once('form.php');
+    $_SESSION['cadastro'] = $cadastro;
+}
 
 $nome = $idade = $cep = "";
 
-if ($_SERVER["REQUEST_METHOD"] == "POST"){
+if($_SERVER["REQUEST_METHOD"] == "POST"){
     $nome = test_input($_POST["nome"]);
     $idade = test_input($_POST["idade"]);
     $cep = test_input($_POST["cep"]);

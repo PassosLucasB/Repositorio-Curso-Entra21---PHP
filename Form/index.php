@@ -56,10 +56,6 @@ function test_input($data){
 </container>
 <container class="support">
 <h5>Desenvolvido por: Lucas Bernardelli dos Passos</h5>
-
-
-
-
 </container>
 </body>
 </html>
