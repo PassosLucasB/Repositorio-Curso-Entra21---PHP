@@ -1,16 +1,21 @@
 <?php
 
-include"base.php";
-include"script.php";
-include"impressao.php";
+$nome = $idade = $cep = "";
 
-$nome = $_POST['nome'];
-$idade = $_POST['idade'];
-$cep = $_POST['cep'];
+if ($_SERVER["REQUEST_METHOD"] == "POST"){
+    $nome = test_input($_POST["nome"]);
+    $idade = test_input($_POST["idade"]);
+    $cep = test_input($_POST["cep"]);
+}
 
-//aquinomearquivo($nome, $idade, $cep);
+function test_input($data){
+    $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
+    return $data;
+}
 
-header(string: 'localtion: index.php');
+
 
 
 /*
