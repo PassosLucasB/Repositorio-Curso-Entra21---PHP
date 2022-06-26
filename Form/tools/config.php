@@ -1,28 +1,8 @@
 
 <?php
 
-session_start();
 
-if (!isset($_SESSION["required"])){
-    $_SESSION['required'] = true;
-    require_once('form.php');
-    $_SESSION['cadastro'] = $cadastro;
-}
 
-$nome = $idade = $cep = "";
-
-if($_SERVER["REQUEST_METHOD"] == "POST"){
-    $nome = test_input($_POST["nome"]);
-    $idade = test_input($_POST["idade"]);
-    $cep = test_input($_POST["cep"]);
-}
-
-function test_input($data){
-    $data = trim($data);
-    $data = stripslashes($data);
-    $data = htmlspecialchars($data);
-    return $data;
-}
 
 
 
