@@ -1,5 +1,13 @@
 <?php
 
+session_start();
+
+if (!isset($_SESSION["cadastro"])){
+    $_SESSION["cadastro"] = true;
+    require_once('form.php');
+    $_SESSION["cadastro"] = $cadastro;
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -10,44 +18,22 @@
 
 <?php
 
-session_start();
 
-if (!isset($_SESSION["required"])){
-    $_SESSION['required'] = true;
-    require_once('form.php');
-    $_SESSION['cadastro'] = $cadastro;
-}
-
-$nome = $idade = $cep = "";
-
-if($_SERVER["REQUEST_METHOD"] == "POST"){
-    $nome = test_input($_POST["nome"]);
-    $idade = test_input($_POST["idade"]);
-    $cep = test_input($_POST["cep"]);
-}
-
-function test_input($data){
-    $data = trim($data);
-    $data = stripslashes($data);
-    $data = htmlspecialchars($data);
-    return $data;
-}
-
-if(isset($_POST['nome']) && !empty($_POST['nome'])){
-        $nome = addslashes($_POST['nome']);}
-    if(isset($_POST['idade']) && !empty($_POST['idade'])){
-        $idade = addslashes($_POST['idade']);}
-    if(isset($_POST['cep']) && !empty($_POST['cep'])){    
-        $cep = addslashes($_POST['cep']);
-    }
-    
-    echo "Você está adicionando o Nome: ".$nome."."."</br>"."Que possui a idade de: ".$idade." anos."."</br>"."Com o cep: ".$cep.".";
-    
-
-$body = "Nome: ".$nome. "\r\n".
-        "Idade: ".$idade. "\r\n".
-        "Cep: ".$cep. "\r\n";
-
+$nome = $idade = $cep = $x = $pessoa = $id = "";
+   
+if(isset($_POST['adiciona_cadastro'])){
+        $nome=$_POST['nome'];
+        $idade=$_POST['idade'];
+        $cep=$_POST['cep'];
+        $adiciona_dados= array
+                ("nome" => $nome,
+                "idade" => $idade,
+                "cep" => $cep);
+                array_push($_SESSION["cadastro"], $adiciona_cadastro);
+        foreach($_SESSION["cadastro"] as $pessoa){
+                echo "Nome: ".$pessoa['nome']. "<br> Idade: ".$pessoa['idade']."<br/> CEP: ".$pessoa['cep']."<br><br>";}};
+        foreach($_SESSION["cadastro"] as $id =>$x){
+            echo "Nome:".$x['nome']." <a href=config.php?Delete=".$id."&Nome=".$x['nome'].">Excluir </a>";};
 
 /*
 - Utilize arquivo separado (modularizado) para tratar as alterações.

@@ -1,5 +1,5 @@
 <?php
-
+require_once "./tools/cadastro.php"
 ?>
 
 <!DOCTYPE html>

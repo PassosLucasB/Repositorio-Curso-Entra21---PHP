@@ -1,7 +1,16 @@
 <?php
 
+?>
+
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="/tools/style.css">
+</head>
+<body>
+<?php
+
 $b="</br>";
-$dados = array(
+$cadastro = array(
     "1" => array(
         "nome" => "Almir",
         "idade" => "18",
@@ -29,20 +38,8 @@ $dados = array(
         ),    
     );
     
-    if (!$_SESSION['dados']){
-        $_SESSION['dados']=$dados;
-    }
+   
 
-
-
-
-/*
-- Faça um arquivo separado chamado - base.php para incluir a array.
-- Inclua ele em seus scripts com require_once.
-- Utilizando o exercicio acima, (mantenha os 5 cadastros ja existentes e)
-(imprima o conteudo da array) faça um formulário permita inserção de novas pessoas.
-
-
-
-*/
 ?>
+</body>
+</html>
