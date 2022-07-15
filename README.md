@@ -9,9 +9,6 @@
 
 <p>Lucas Bernardelli dos Passos</p>
 
-![image](https://avatars.githubusercontent.com/u/64398756?v=4)
-
-
 ![image](https://user-images.githubusercontent.com/46844031/166827406-389e0e71-81b6-461b-a725-58f059e1a355.png)
 
 <!-- Badges Tecnologias usadas-->
