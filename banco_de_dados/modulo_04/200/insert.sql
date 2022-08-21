@@ -103,16 +103,16 @@ VALUES
 
 INSERT INTO ATENDENTES(ID_ATENDENTE, NOME_ATENDENTE, ENDERECO_ATENDENTE, SALARIO_ATENDENTE, EMAIL_ATENDENTE)
 VALUES
-    (1,'Paula Silva';'Rua Claudino Huber';	1500;'paula@seuemail.com'),
-    (2,'Denize Figueiredo';'Rua Santa Fe';	1500;'denize@seuemail.com'),
-    (3,'Jennifer Barbosa';'Rua LI 045';	1500;'jennifer@seuemail.com'),
-    (4,'Icaro Melchior';'Rua Nova Brasilia'; 1500;'icaro@seuemail.com'),
-    (5,'Bruno Souza';'Rua Claudino Huber';	1500;'bruno@seuemail.com'),
-    (6,'Lucas Passos';'Rua LI 045';	1500;'lucas@seuemail.com'),
-    (7,'Vinicius Nichetti';'Rua Santa Fe';	1500;'vinicius@seuemail.com'),
-    (8,'Adriano Machado';'Rua LI 045';	1500;'adriano@seuemail.com'),
-    (9,'Debora Lima ';'Rua Claudino Huber';	1500;'debora@seuemail.com'),
-    (10,'Adriana Rocha';'Rua Santa Fe';	1500;'adriana@seuemail.com');
+    (1,'Paula Silva','Rua Claudino Huber',	1500,'paula@seuemail.com'),
+    (2,'Denize Figueiredo','Rua Santa Fe',	1500,'denize@seuemail.com'),
+    (3,'Jennifer Barbosa','Rua LI 045',	1500,'jennifer@seuemail.com'),
+    (4,'Icaro Melchior','Rua Nova Brasilia', 1500,'icaro@seuemail.com'),
+    (5,'Bruno Souza','Rua Claudino Huber',	1500,'bruno@seuemail.com'),
+    (6,'Lucas Passos','Rua LI 045',	1500,'lucas@seuemail.com'),
+    (7,'Vinicius Nichetti','Rua Santa Fe',	1500,'vinicius@seuemail.com'),
+    (8,'Adriano Machado','Rua LI 045',	1500,'adriano@seuemail.com'),
+    (9,'Debora Lima ','Rua Claudino Huber',	1500,'debora@seuemail.com'),
+    (10,'Adriana Rocha','Rua Santa Fe', 1500,'adriana@seuemail.com');
 
 
 INSERT INTO PRATELEIRAS(ID_PRATELEIRA, NOME_PRATELEIRA, LOCALIZACAO_PRATELEIRA)
@@ -130,7 +130,7 @@ VALUES
     (11,'Prateleira Animais','Corredor 8');
 
 
-INSERT INTO ITENS_NFS(ID_ITENS_NF, COD_ITENS_NF, SEQUENCIA_ITENS_NF, ID_PRODUTO, VALOR_PRODUTO, VALOR_TOTAL_ITENS_NF, QUANTIDADE_ITENS_NF)
+INSERT INTO ITENS_NF(ID_ITENS_NF, COD_ITENS_NF, SEQUENCIA_ITENS_NF, ID_PRODUTO, VALOR_PRODUTO, VALOR_TOTAL_ITENS_NF, QUANTIDADE_ITENS_NF)
 VALUES
     (1,1,1,121,35.90,35.90,1),
     (2,1,2,114,5.98,11.96,2),
@@ -481,7 +481,7 @@ VALUES
     (347,30,13,13,6.50,26.00,4),
     (348,30,14,198,17.98,89.90,5);
 
-INSERT INTO PRODUTOS(ID_PRODUTOS, CODIGO_PRODUTOS, NOME_PRODUTO, VALOR_PRODUTO, QUANTIDADE_PRODUTO, ID_PRATELEIRA)
+INSERT INTO PRODUTO(ID_PRODUTO, CODIGO_PRODUTO, NOME_PRODUTO, VALOR_PRODUTO, QUANTIDADE_PRODUTO, ID_PRATELEIRA)
 VALUES
 
     (1,1,'Arroz',8.90,12,8),
