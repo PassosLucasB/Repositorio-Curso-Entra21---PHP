@@ -9,7 +9,7 @@ class HomeController extends Controller
     public function index()
     {
         $viewData = [];
-        $viewData["title"] = "Home EAD Linux4DEV";
+        $viewData["title"] = "Home Curso Entra21-PHP";
         return view('home.index')->with("viewData", $viewData);
     }
 
@@ -19,7 +19,7 @@ class HomeController extends Controller
         $viewData["title"] = "About us - Online Store";
         $viewData["subtitle"] =  "Sobre nós";
         $viewData["description"] =  "Pagina sobre nós...";
-        $viewData["author"] = "Desenvolvido por: Xadrak Adriano Machado";
+        $viewData["author"] = "Desenvolvido por: Lucas Bernardelli dos Passos";
         return view('home.about')->with("viewData", $viewData);
     }
 }
