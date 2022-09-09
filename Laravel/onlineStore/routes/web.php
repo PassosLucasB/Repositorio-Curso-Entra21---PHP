@@ -14,13 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 // Route::get('denize/', function () {
-//     return view('denize');    
+//     return view('denize');
 // });
 // Route::get('cnv/', function () {
-//     return view('cnv');    
-// });    
+//     return view('cnv');
+// });
 // Route::get('alunos/', function () {
-//     return view('alunos');    
+//     return view('alunos');
 // });
 
 // Route::get('/', function () {

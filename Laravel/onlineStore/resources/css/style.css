@@ -2144,3 +2144,8 @@ left:48px;
 top:357px;
 position:absolute;
 }
+.initial_image{
+width: 100%;
+height: auto;
+display: block;
+}

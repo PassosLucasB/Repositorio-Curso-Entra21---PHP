@@ -7,17 +7,20 @@ use Illuminate\Http\Request;
 class ProductController extends Controller
 {
     public static $products = [
-        ["id"=>"1", "name"=>"Lucas", "description"=>"Dev", "image" => "lucas.png", "price"=>"1 btc"],
-        ["id"=>"2", "name"=>"Frank", "description"=>"Cantor", "image" => "frank.png", "price"=>"1 btc"],
-        ["id"=>"3", "name"=>"Edith", "description"=>"Cantora", "image" => "edith.png", "price"=>"1 btc"],
-        ["id"=>"4", "name"=>"Nat", "description"=>"Cantor", "image" => "nat.png", "price"=>"1 btc"]
+        ["id"=>"1", "name"=>"Bruno de Souza", "description"=>"Dev", "image" => "bruno.png", "price"=>"1 btc"],
+        ["id"=>"2", "name"=>"Denize Bassi Figueiredo", "description"=>"Dev", "image" => "denize.png", "price"=>"1 btc"],
+        ["id"=>"3", "name"=>"Icaro Melchior Barbosa", "description"=>"Dev", "image" => "icaro.png", "price"=>"1 btc"],
+        ["id"=>"4", "name"=>"Jennifer Barbosa", "description"=>"Dev", "image" => "jennifer.png", "price"=>"1 btc"],
+        ["id"=>"5", "name"=>"Lucas Bernardelli dos Passos", "description"=>"Dev", "image" => "lucas.png", "price"=>"1 btc"],
+        ["id"=>"6", "name"=>"Paula Eduarda Silva ", "description"=>"Dev", "image" => "paula.png", "price"=>"1 btc"],
+        ["id"=>"7", "name"=>"Vinicius Nichetti", "description"=>"Dev", "image" => "vinicius.png", "price"=>"1 btc"]
     ];
 
     public function index()
     {
         $viewData = [];
-        $viewData["title"] = "Perfis - Veja nossos talentos";
-        $viewData["subtitle"] =  "Lista de Devs";
+        $viewData["title"] = "Perfis da Turma de PHP";
+        $viewData["subtitle"] =  "Lista de Devs - Grupo 01";
         $viewData["products"] = ProductController::$products;
         return view('product.index')->with("viewData", $viewData);
     }
